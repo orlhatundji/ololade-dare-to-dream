@@ -4,8 +4,11 @@
 module.exports = {
   siteMetadata: {
     title: `ololade-dare-to-dream`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://orlhatundji.github.io/ololade-dare-to-dream/`,
+    description: `Ololade Ayelabola is a model, beauty queen, and entrepreneur. She is the founder of Dare to Dream, a platform that empowers young people to achieve their dreams.`,
+    keywords: `Ololade, Ayelabola, Model, Beauty Queen, Entrepreneur, Dare to dream, Ololade Ayelabola, Ololade Ayelabola Dare to dream, Ololade Ayelabola Model, Ololade Ayelabola Beauty Queen, Ololade Ayelabola Entrepreneur, Ololade Ayelabola Dare to dream Model, Ololade Ayelabola Dare to dream Beauty Queen, Ololade Ayelabola Dare to dream Entrepreneur, Ololade Ayelabola Model Beauty Queen, Ololade Ayelabola Model Entrepreneur, Ololade Ayelabola Beauty Queen Entrepreneur, Ololade Ayelabola Model Beauty Queen Entrepreneur, Ololade Ayelabola Dare to dream Model Beauty Queen, Ololade Ayelabola Dare to dream Model Entrepreneur, Ololade Ayelabola Dare to dream Beauty Queen Entrepreneur, Ololade Ayelabola Dare to dream Model Beauty Queen Entrepreneur`,
   },
+  pathPrefix: "/ololade-dare-to-dream",
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
@@ -23,7 +26,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/assets/images/`,
       },
       __key: "images",
     },
@@ -31,7 +34,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "./src/pages/",
+        path: `${__dirname}/src/pages/`,
       },
       __key: "pages",
     },
@@ -39,9 +42,16 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "icons",
-        path: "./src/assets/icons/",
+        path: `${__dirname}/src/assets/icons/`,
       },
       __key: "icons",
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
+      },
     },
     {
       resolve: 'gatsby-plugin-react-svg',

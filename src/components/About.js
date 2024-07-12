@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="relative bg-black  px-4 lg:pl-20 lg:pr-10 py-20 lg:py-40 lg:flex gap-10 text-white seasons border-b border-white/50">
+    <div id="about" className="relative bg-black  px-4 lg:pl-20 lg:pr-10 py-20 lg:py-40 lg:flex gap-10 text-white seasons border-b border-white/50">
       <hr className="hidden lg:block border-primary opacity-50 border absolute left-0 w-16 mt-4 mr-5" />
       <h2 className="text-5xl text-primary min-w-fit mb-10 lg:mb-0">What I do</h2>
       <div className="grid lg:grid-cols-2 gap-x-10 gap-y-8 lg:gap-y-12">

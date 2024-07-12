@@ -3,7 +3,7 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div className="bg-black  px-2 lg:pl-20 lg:pr-10 py-16">
+    <div id="gallery" className="bg-black  px-2 lg:pl-20 lg:pr-10 py-16">
       <div className="flex items-center justify-center gap-x-5 w-full">
         <hr className="border-primary w-20" />
         <h2 className="text-5xl text-primary w-fit">Gallery</h2>

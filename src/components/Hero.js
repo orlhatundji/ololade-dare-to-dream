@@ -12,16 +12,16 @@ const Hero = () => {
       <nav className="">
         <ul className="grid grid-cols-3 lg:grid-cols-4 w-fit text-secondary-100 text-xl gap-7">
           <li className="">
-            <a href="">About Me</a>
+            <a href="#about">About Me</a>
           </li>
           <li className="">
-            <a href="">Projects</a>
+            <a href="#about">Projects</a>
           </li>
           <li className="">
-            <a href="">Gallery</a>
+            <a href="#gallery">Gallery</a>
           </li>
           <li className="">
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
