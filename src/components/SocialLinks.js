@@ -6,10 +6,10 @@ import TwitterIcon from "../assets/icons/twitter.svg";
 import LinkedInIcon from "../assets/icons/tiktok.svg";
 import FacebookIcon from "../assets/icons/facebook.svg";
 
-const SocialLinks = () => {
+const SocialLinks = ({ noLine }) => {
   return (
     <ul className="flex text-white text-xs gap-4">
-    <hr className="hidden lg:block border-secondary-200 opacity-50 border absolute left-0 w-16 mt-2" />
+    {!noLine && <hr className="hidden lg:block border-secondary-200 opacity-50 border absolute left-0 w-16 mt-2" />}
     <li className="hover:scale-150 transition-all cursor-pointer">
       <a target="_blank" href="https://web.facebook.com/ayelabola.ololade.9">
         <FacebookIcon className="h-7" />

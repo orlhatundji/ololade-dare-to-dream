@@ -42,7 +42,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="-ml-3">
-              <SocialLinks />
+              <SocialLinks noLine />
             </div>
           </div>
         </div>
