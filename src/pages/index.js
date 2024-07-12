@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Gallery from "../components/Gallery";
 import Blogs from "../components/Blogs";
+import Contact from "../components/Contact";
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <About />
       <Gallery />
       <Blogs />
+      <Contact />
     </>
   );
 };
