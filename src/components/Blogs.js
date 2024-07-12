@@ -10,7 +10,7 @@ const Blogs = () => {
       <div className="flex flex-col lg:flex-row flex-wrap gap-x-5 gap-y-8 justify-between mt-14">
         <div className="flex flex-col items-center gap-y-3 lg:w-[30%]">
           <StaticImage
-            src="../images/hero.jpg"
+            src="../images/blog/1.png"
             alt="Ololade in style"
             className="max-w-full lg:max-w-[204px] border-4 border-white -rotate-[5deg]"
             formats={["AUTO", "PNG"]}
@@ -30,7 +30,7 @@ const Blogs = () => {
         </div>
         <div className="flex flex-col items-center gap-y-3 lg:w-[30%]">
           <StaticImage
-            src="../images/hero.jpg"
+            src="../images/blog/2.png"
             alt="Ololade in style"
             className="max-w-full lg:max-w-[204px] border-4 border-white"
             formats={["AUTO", "PNG"]}
@@ -50,7 +50,7 @@ const Blogs = () => {
         </div>
         <div className="flex flex-col items-center gap-y-3 lg:w-[30%]">
           <StaticImage
-            src="../images/hero.jpg"
+            src="../images/blog/3.png"
             alt="Ololade in style"
             className="max-w-full lg:max-w-[204px] border-4 border-white rotate-[5deg]"
             formats={["AUTO", "PNG"]}

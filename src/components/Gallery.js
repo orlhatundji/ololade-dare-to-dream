@@ -10,16 +10,54 @@ const Gallery = () => {
         <hr className="border-primary w-20" />
       </div>
       <div className="flex flex-wrap gap-x-5 gap-y-8 justify-between mt-14">
-        {Array.from({ length: 8 }).map((_, idx) => (
-          <StaticImage
-            key={idx}
-            src="../images/hero.jpg"
-            alt="Ololade in style"
-            className="max-w-full lg:max-w-[204px] border"
-            formats={["AUTO", "PNG"]}
-            pngOptions={{ quality: 100, lossless: true }}
-          />
-        ))}
+        <StaticImage
+          src="../images/gallery/1.png"
+          alt="Ololade in style"
+          className="max-w-full lg:max-w-[204px] hover:scale-[1.5] delay-1000 hover:z-10 transition-transform duration-300 ease-in-out"
+          formats={["AUTO", "PNG"]}
+        />
+        <StaticImage
+          src="../images/gallery/2.png"
+          alt="Ololade in style"
+          className="max-w-full lg:max-w-[204px] hover:scale-[1.5] delay-1000 hover:z-10 transition-transform duration-300 ease-in-out"
+          formats={["AUTO", "PNG"]}
+        />
+        <StaticImage
+          src="../images/gallery/3.png"
+          alt="Ololade in style"
+          className="max-w-full lg:max-w-[204px] hover:scale-[1.5] delay-1000 hover:z-10 transition-transform duration-300 ease-in-out"
+          formats={["AUTO", "PNG"]}
+        />
+        <StaticImage
+          src="../images/gallery/4.png"
+          alt="Ololade in style"
+          className="max-w-full lg:max-w-[204px] hover:scale-[1.5] delay-1000 hover:z-10 transition-transform duration-300 ease-in-out"
+          formats={["AUTO", "PNG"]}
+        />
+        <StaticImage
+          src="../images/gallery/5.png"
+          alt="Ololade in style"
+          className="max-w-full lg:max-w-[204px] hover:scale-[1.5] delay-1000 hover:z-10 transition-transform duration-300 ease-in-out"
+          formats={["AUTO", "PNG"]}
+        />
+        <StaticImage
+          src="../images/gallery/6.png"
+          alt="Ololade in style"
+          className="max-w-full lg:max-w-[204px] hover:scale-[1.5] delay-1000 hover:z-10 transition-transform duration-300 ease-in-out"
+          formats={["AUTO", "PNG"]}
+        />
+        <StaticImage
+          src="../images/gallery/7.png"
+          alt="Ololade in style"
+          className="max-w-full lg:max-w-[204px] hover:scale-[1.5] delay-1000 hover:z-10 transition-transform duration-300 ease-in-out"
+          formats={["AUTO", "PNG"]}
+        />
+        <StaticImage
+          src="../images/gallery/8.png"
+          alt="Ololade in style"
+          className="max-w-full lg:max-w-[204px] hover:scale-[1.5] delay-1000 hover:z-10 transition-transform duration-300 ease-in-out"
+          formats={["AUTO", "PNG"]}
+        />
       </div>
     </div>
   );
