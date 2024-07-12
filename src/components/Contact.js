@@ -8,7 +8,7 @@ import SocialLinks from "./SocialLinks";
 
 const Contact = () => {
   return (
-    <div className="px-4 lg:pl-16 lg:pr-10 py-10 pb-20 lg:py-16 border">
+    <div id="contact" className="px-4 lg:pl-16 lg:pr-10 py-10 pb-20 lg:py-16 border">
       <h2 className="z-10 text-[4rem] leading-[4rem] lg:text-[5.25rem] lg:leading-[5.25rem] text-primary mt-10">
         Let<span className="font-times">'</span>s work
         <br />
