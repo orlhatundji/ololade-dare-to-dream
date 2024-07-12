@@ -1,13 +1,22 @@
-import * as React from "react"
+import * as React from "react";
+
+// Components
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Gallery from "../components/Gallery";
+import Blogs from "../components/Blogs";
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Home Page</h1>
-    </main>
-  )
-}
+    <>
+      <Hero />
+      <About />
+      <Gallery />
+      <Blogs />
+    </>
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Home Page</title>;

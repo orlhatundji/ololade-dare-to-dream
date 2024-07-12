@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1024px;
+  margin:auto;
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'the-seasons', sans-serif;
+}
+
+
+.hero {
+  position: relative;
+  width: 100%;
+  background-position: 50%;
+  background-size: cover;
+  background-image: url('../images/hero.jpg');
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    position: relative;
+    width: 100%;
+    background-position: 0%;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'the-seasons';
+    font-weight: bold;
+    src: url("../assets/fonts/theseasons-bd.otf") format("truetype");
+  }
+  @font-face {
+    font-family: 'the-seasons';
+    font-weight: normal;
+    src: url("../assets/fonts/theseasons-reg.otf") format("truetype");
+  }
+  @font-face {
+    font-family: 'the-seasons';
+    font-weight: light;
+    src: url("../assets/fonts/theseasons-lt.otf") format("truetype");
+  }
+}
+
+@layer components {
+  .seasons {
+    font-family: 'the-seasons', sans-serif;
+  }
+  .font-times {
+    font-family: 'Times New Roman', sans-serif;
+  }
+}
