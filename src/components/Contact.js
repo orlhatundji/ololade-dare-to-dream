@@ -31,7 +31,7 @@ const Contact = () => {
           <div className="flex flex-col gap-y-5 mt-5">
             <div className="flex items-center gap-x-4">
               <PhoneIcon className="w-8" />
-              <a href="tel:1234567890" className="text-">
+              <a href="tel:+2349068080111" className="text-">
                 +234 906 808 0111
               </a>
             </div>
