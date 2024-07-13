@@ -17,6 +17,7 @@ const SocialLinks = ({ noLine }) => {
         <li className="hover:scale-150 transition-all cursor-pointer">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://web.facebook.com/ayelabola.ololade.9"
           >
             <FacebookIcon className="h-7" />
@@ -24,17 +25,29 @@ const SocialLinks = ({ noLine }) => {
         </li>
 
         <li className="hover:scale-150 transition-all cursor-pointer">
-          <a target="_blank" href="https://www.instagram.com/thelade_wonder/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/thelade_wonder/"
+          >
             <InstagramIcon className="h-7" />
           </a>
         </li>
         <li className="hover:scale-150 transition-all cursor-pointer">
-          <a target="_blank" href="https://www.tiktok.com/@officiallade_wonder">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.tiktok.com/@officiallade_wonder"
+          >
             <LinkedInIcon className="h-7" />
           </a>
         </li>
         <li className="hover:scale-150 transition-all cursor-pointer">
-          <a target="_blank" href="https://x.com/thelade_wonder">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://x.com/thelade_wonder"
+          >
             <TwitterIcon className="h-7" />
           </a>
         </li>

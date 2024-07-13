@@ -8,6 +8,9 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
+
 body {
   font-family: 'Montserrat', sans-serif;
   max-width: 1024px;
@@ -64,4 +67,30 @@ h1, h2, h3, h4, h5, h6 {
   .font-montserrat {
     font-family: 'Montserrat', sans-serif;
   }
+
+  #blog {
+    @apply bg-white absolute inset-0;
+  }
+  
 }
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.container h1, h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+.container h1 {
+  font-size: 2rem;
+}
+
+.container p {
+  text-align: justify;
+}
+

@@ -62,7 +62,7 @@ const Blogs = () => {
             been marked by several significant victories. .....
           </p>
           <a
-            href=""
+            href="/blogs/charitable-outreach-and-community-engagement"
             className="bg-black text-primary rounded-[2rem] py-1.5 px-6 text-sm"
           >
             Read more
