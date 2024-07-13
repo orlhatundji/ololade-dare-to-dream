@@ -1,11 +1,13 @@
 import React from "react";
+import { Slide } from "react-awesome-reveal";
 
 const About = () => {
   return (
     <div id="about" className="relative bg-black  px-4 lg:pl-20 lg:pr-10 py-20 lg:py-40 lg:flex gap-10 text-white seasons border-b border-white/50">
       <hr className="hidden lg:block border-primary opacity-50 border absolute left-0 w-16 mt-4 mr-5" />
       <h2 className="text-5xl text-primary min-w-fit mb-10 lg:mb-0">What I do</h2>
-      <div className="grid lg:grid-cols-2 gap-x-10 gap-y-8 lg:gap-y-12">
+      <div className="grid lg:grid-cols-2 gap-x-10 gap-y-8 lg:gap-y-12 font-medium">
+        <Slide direction="up" cascade duration={500} triggerOnce>
         <div className="">
           <h3 className="text-lg font-bold font-montserrat">Model and Beauty Queen</h3>
           <p className=" leading-[1.5rem] mt-5">
@@ -37,6 +39,7 @@ const About = () => {
             also a young pastor passionate about the gospel of Christ.
           </p>
         </div>
+        </Slide>
       </div>
     </div>
   );

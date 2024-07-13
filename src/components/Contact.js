@@ -1,5 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import { Fade, Zoom } from "react-awesome-reveal";
 
 // Assets
 import PhoneIcon from "../assets/icons/phone.svg";
@@ -8,12 +9,17 @@ import SocialLinks from "./SocialLinks";
 
 const Contact = () => {
   return (
-    <div id="contact" className="px-4 lg:pl-16 lg:pr-10 py-10 pb-20 lg:py-16 border">
+    <div
+      id="contact"
+      className="px-4 lg:pl-16 lg:pr-10 py-10 pb-20 lg:py-16 border"
+    >
+      <Fade duration={2000} delay={500}>
       <h2 className="z-10 text-[4rem] leading-[4rem] lg:text-[5.25rem] lg:leading-[5.25rem] text-primary mt-10">
         Let<span className="font-times">'</span>s work
         <br />
         together<span className="font-times">!</span>
       </h2>
+      </Fade>
       <div className="lg:grid grid-cols-2 justify-between -mt-12">
         <div className="relative flex">
           <StaticImage
@@ -30,16 +36,20 @@ const Contact = () => {
           </p>
           <div className="flex flex-col gap-y-5 mt-5">
             <div className="flex items-center gap-x-4">
-              <PhoneIcon className="w-8" />
+              <Zoom delay={100} duration={1000}>
+                <PhoneIcon className="w-8" />
               <a href="tel:+2349068080111" className="text-">
                 +234 906 808 0111
               </a>
+              </Zoom>
             </div>
             <div className="flex items-center gap-x-4">
+            <Zoom delay={100} duration={1000}>
               <EmailIcon className="w-7" />
-              <a href="mailto:ololadeayelabola@gmail.com" className="text-">
-                ololadeayelabola@gmail.com
+              <a href="mailto:ayelabolaola@gmail.com                                                                                                                                            " className="text-">
+              ayelabolaola@gmail.com
               </a>
+              </Zoom>
             </div>
             <div className="-ml-3">
               <SocialLinks noLine />
