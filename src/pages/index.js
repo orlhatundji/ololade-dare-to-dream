@@ -21,4 +21,18 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Ololade Ayelabola</title>;
+export const Head = () => (
+  <>
+    <meta name="google-site-verification" content="eCwhOuu21YZC7h40Oq8ym89BhiauGokRqQjugdzxmys" />
+    <meta
+      name="description"
+      content="A lady of diverse talents, a unique model with a burning passion for the gospel of Christ"
+    />
+    <meta
+      name="keywords"
+      content="Ololade Ayelabola, Model, GWR, fashion, catwalk, philanthropist"
+    />
+    <meta name="author" content="Ololade Ayelabola" />
+    <title>Ololade Ayelabola</title>
+  </>
+);
