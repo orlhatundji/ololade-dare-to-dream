@@ -69,20 +69,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #blog {
-    @apply bg-white absolute inset-0;
+    @apply bg-white absolute inset-0 py-3 lg:py-10 pb-20 overflow-scroll;
   }
-  
 }
 
 .container {
   max-width: 1024px;
   margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .container h1, h2,h3,h4,h5,h6 {
   font-weight: bold;
   margin-top: 1rem;
-  margin-bottom: .5rem;
   font-size: 1.2rem;
 }
 
@@ -92,5 +92,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .container p {
   text-align: justify;
+  margin: 1rem 0;
 }
 
+/* #blog img {
+  width: 100%;
+  max-width: 756px;
+  object-fit: contain;
+  object-position: center;
+} */

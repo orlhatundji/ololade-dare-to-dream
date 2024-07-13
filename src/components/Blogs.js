@@ -16,13 +16,13 @@ const Blogs = () => {
             formats={["AUTO", "PNG"]}
             pngOptions={{ quality: 100, lossless: true }}
           />
-          <h3 className="text-xl font-bold">Crown of achievements</h3>
-          <p className="text-[1.1rem] leading-[1.375rem] font-times text-center">
+          <h3 className="text-xl font-bold text-center">Crown of achievements</h3>
+          <p className="text-[1.1rem] leading-[1.375rem] font-times text-center flex-1">
             Ololade Ayelabola's venturing into the world of beauty pageants has
             been marked by several significant victories. .....
           </p>
           <a
-            href=""
+            href="/blogs/crown-of-achievements"
             className="bg-black text-primary rounded-[2rem] py-1.5 px-6 text-sm"
           >
             Read more
@@ -36,13 +36,13 @@ const Blogs = () => {
             formats={["AUTO", "PNG"]}
             pngOptions={{ quality: 100, lossless: true }}
           />
-          <h3 className="text-xl font-bold">Crown of achievements</h3>
-          <p className="text-[1.1rem] leading-[1.375rem] font-times text-center">
-            Ololade Ayelabola's venturing into the world of beauty pageants has
-            been marked by several significant victories. .....
+          <h3 className="text-xl font-bold text-center">Entrepreneurial Foray</h3>
+          <p className="text-[1.1rem] leading-[1.375rem] font-times text-center flex-1">
+            Beyond the glitz and glamor of pageantry, Ololade Ayelabola is a
+            dynamic entrepreneur....
           </p>
           <a
-            href=""
+            href="/blogs/entrepreneurial-foray"
             className="bg-black text-primary rounded-[2rem] py-1.5 px-6 text-sm"
           >
             Read more
@@ -56,10 +56,12 @@ const Blogs = () => {
             formats={["AUTO", "PNG"]}
             pngOptions={{ quality: 100, lossless: true }}
           />
-          <h3 className="text-xl font-bold">Crown of achievements</h3>
-          <p className="text-[1.1rem] leading-[1.375rem] font-times text-center">
-            Ololade Ayelabola's venturing into the world of beauty pageants has
-            been marked by several significant victories. .....
+          <h3 className="text-xl font-bold text-center">
+            Charitable Outreach and Community Engagement
+          </h3>
+          <p className="text-[1.1rem] leading-[1.375rem] font-times text-center flex-1">
+            Ololade's heart for service is evident in her active engagement in
+            various charitable endeavors..
           </p>
           <a
             href="/blogs/charitable-outreach-and-community-engagement"
