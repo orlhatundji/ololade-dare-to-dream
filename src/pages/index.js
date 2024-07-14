@@ -24,6 +24,7 @@ export default IndexPage;
 export const Head = () => (
   <>
     <meta name="google-site-verification" content="eCwhOuu21YZC7h40Oq8ym89BhiauGokRqQjugdzxmys" />
+    <meta name="msvalidate.01" content="09D45BCBF8D43397A28BA115B192F83C" />
     <meta
       name="description"
       content="A lady of diverse talents, a unique model with a burning passion for the gospel of Christ"
